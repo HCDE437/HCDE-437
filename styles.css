@@ -2,6 +2,8 @@ body {
 	background-color: #303134;
 }
 
+h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
+
 /* header styles */
 
 #logo {
@@ -56,7 +58,7 @@ body {
 
 /*home page styles*/
 
-.columncontent img {
+#-home-column .columncontent img, #right-home-column .columncontent img  {
 	width: 100%;
 }
 
@@ -74,15 +76,15 @@ body {
 	width: 18%;
 }
 
-
 #mid-home-column{
 	float: left;
 	width: 58%;
-	border: solid 2px #CCCCCC; /*temp*/
 }
 
 #frontfeed, #map {
 	background-color: #CCCCCC;
+	margin-bottom: 1%;
+	padding-bottom: 1%;
 }
 
 #map img {
@@ -90,4 +92,77 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	width:96%;
+}
+
+div.feeditem {
+	background-color:white;
+	margin:1%;
+	padding-bottom:0.5%;
+	padding-left:1.5%;
+	padding-top:0.5%;
+}
+
+/*resort profile styles*/
+
+#leftcolumn, #rightcolumn, #midcolumn {
+	margin:0.9%;
+}
+
+#leftcolumn{
+	float: left;
+	width: 18%;
+}
+
+#rightcolumn{
+	float: right;
+	width: 18%;
+}
+
+
+#midcolumn{
+	float: left;
+	width: 58%;
+}
+
+#resortnav ul{
+	list-style: none;
+}
+
+#resortnav {
+	margin-top: 1%;
+	background-color: #CCCCCC;
+}
+
+#share {
+	overflow: hidden;
+}
+
+#share h2 {
+	float: left;
+}
+
+#share ul {
+	list-style:none;
+}
+
+#share li {
+	float: left;
+}
+
+#localsbox {
+	overflow: hidden;
+	background-color: #CCCCCC;
+}
+
+#localslist {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#localslist li {
+	float: left;
+}
+
+.thumbpic {
+	margin-right: 7%;
 }
