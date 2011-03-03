@@ -31,10 +31,11 @@ function top() {
 							<p>Shred on.</p>
 							<button onclick="hideSuccessfulLogIn();">Close</button>
 						</div>
+<!--
 					<form>
 						Search: <input id="search" type="text" name="search" size="10"/>
 						<input id="submitsearch" type="submit" value="Search" />
-					</form>
+					</form> -->
 				</div>
 
 				<div id="logo">
