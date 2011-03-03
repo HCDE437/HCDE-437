@@ -7,7 +7,7 @@ h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
 /* header styles */
 
 #loginlinks a {
-       color: #0066FF;
+	color: #0066FF;
 }
 
 #logo {
@@ -107,6 +107,10 @@ div.feeditem {
 }
 
 /*resort profile styles*/
+
+#weather, #reviews {
+	background-color: #CCCCCC;
+}
 
 #leftcolumn, #rightcolumn, #midcolumn {
 	margin:0.9%;
