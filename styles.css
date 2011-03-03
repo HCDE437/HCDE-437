@@ -6,6 +6,10 @@ h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
 
 /* header styles */
 
+#loginlinks a {
+       color: #0066FF;
+}
+
 #logo {
 	float: left;
 	width: 16%;
