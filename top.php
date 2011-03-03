@@ -7,7 +7,9 @@ function top() {
 		<title>Snowrdr</title>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 		<link href="styles.css" type="text/css" rel="stylesheet" />
-
+		<link href='http://fonts.googleapis.com/css?family=Cabin:bold' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.1.0/prototype.js" type="text/javascript"></script>
+		<script src="js.js" type="text/javascript"></script>
 	</head>
 
 	<body>
@@ -15,7 +17,24 @@ function top() {
 			<div id="header">
 				<div id="loginlinks">
 				<!-- placeholder-->
-					<p>Sign up or Log in now. Search: BLAHBLAHBLAH</p>
+					<p><a onclick="showLogIn();">Log In</a> or <a onclick="showSignUp();">Sign Up</a> now.</p>
+						<div id="login" style="display: none;">
+							<form>
+								Username: <input type="text" name="username" size="10"/>
+								Password: <input type="text" name="password" size="10"/>
+								<input onclick="showSuccessfulLogIn();" id="submitlogin" type="submit" value="Log In" />
+								<button onclick="hideLogin();">Close</button>
+							</form>
+						</div>
+						<div id="loginsuccessful" style="display: none;">
+							<p>You have been successfully logged in!</p>
+							<p>Shred on.</p>
+							<button onclick="hideSuccessfulLogIn();">Close</button>
+						</div>
+					<form>
+						Search: <input id="search" type="text" name="search" size="10"/>
+						<input id="submitsearch" type="submit" value="Search" />
+					</form>
 				</div>
 
 				<div id="logo">
