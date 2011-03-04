@@ -52,7 +52,7 @@ function top() {
 						<li>Browse Resorts</li>
 						<li>Videos</li>
 						<li>Pictures</li>
-						<li>Forum</li>
+						<li><a href="forum.php">Forum</a></li>
 					</ul>
 				</div>
 			</div>
