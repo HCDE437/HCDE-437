@@ -31,7 +31,7 @@ function top() {
 							<p>Shred on.</p>
 							<button onclick="hideSuccessfulLogIn();">Close</button>
 						</div>
-<!--
+						<!--
 					<form>
 						Search: <input id="search" type="text" name="search" size="10"/>
 						<input id="submitsearch" type="submit" value="Search" />
@@ -48,7 +48,7 @@ function top() {
 
 				<div id="mainnav">
 					<ul>
-						<li>Home</li>
+						<li><a href="index.php">Home</a></li>
 						<li>Browse Resorts</li>
 						<li>Videos</li>
 						<li>Pictures</li>
