@@ -62,7 +62,7 @@ h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
 
 /*home page styles*/
 
-#-home-column .columncontent img, #right-home-column .columncontent img  {
+#left-home-column .columncontent img, #right-home-column .columncontent img  {
 	width: 100%;
 }
 
