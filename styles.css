@@ -4,7 +4,8 @@ body {
 
 h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
 
-/* header styles */
+/* -------------------- header styles -------------------- */
+
 #loginlinks {
 	margin-right: 5%;
 }
@@ -67,7 +68,7 @@ h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
 	margin-right: auto;
 }
 
-/*home page styles*/
+/* -------------------- home page styles -------------------- */
 
 #left-home-column .columncontent img, #right-home-column .columncontent img  {
 	width: 100%;
@@ -113,7 +114,11 @@ div.feeditem {
 	padding-top:0.5%;
 }
 
-/*resort profile styles*/
+/* -------------------- resort profile styles -------------------- */
+
+.profilepic img {
+	width: 100%;
+}
 
 #weather, #reviews {
 	background-color: #CCCCCC;
@@ -208,3 +213,10 @@ div.feeditem {
 	width: 85%;
 	margin-left: 7%;
 }
+
+/* -------------------- Forum Styles -------------------- */
+
+#forummockup img {
+	width: 100%;
+}
+
