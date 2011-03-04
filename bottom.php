@@ -8,7 +8,7 @@ function bottom() {
 ?>
 
 			<div id="footer">
-				<p> <a href=""> About Us </a> | <a href=""> Terms of Service</a> </p>
+				<p> <a href="about_us.php"> About Us </a> | <a href=""> Terms of Service</a> </p>
 			</div>
 		</div> <!-- end big container -->
 
