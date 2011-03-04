@@ -174,3 +174,30 @@ div.feeditem {
 .thumbpic {
 	margin-right: 7%;
 }
+
+#resortfeed, #share {
+	background-color: #CCCCCC;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	margin-bottom:2%;
+}
+
+#reviews img {
+	width:80%;
+}
+
+#localsbox, #weather, #reviews {
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: .5%;
+}
+
+#weather p {
+	text-align: center;
+	margin-top: 1%;
+}
+
+#weather img {
+	width: 85%;
+	margin-left: 7%;
+}
