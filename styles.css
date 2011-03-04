@@ -5,6 +5,13 @@ body {
 h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
 
 /* header styles */
+#loginlinks {
+	margin-right: 5%;
+}
+
+#loginlinks p {
+	text-align: right;
+}
 
 #loginlinks a {
 	color: #0066FF;
