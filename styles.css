@@ -18,15 +18,6 @@ h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
 	color: #0066FF;
 }
 
-#logo {
-	float: left;
-	width: 16%;
-}
-
-#logo img {
-	margin-top:10%;
-	width:100%;
-}
 
 #mainnav {
 	background-color:#CCCCCC;
@@ -51,7 +42,7 @@ h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
 }
 
 #topbanner img {
-	width:80%;
+	width:100%;
 }
 
 #topbanner img, #logo {
