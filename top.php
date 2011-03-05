@@ -38,10 +38,6 @@ function top() {
 					</form> -->
 				</div>
 
-				<div id="logo">
-					<img src="images/logo.jpg" alt="snowrdr logo"/>
-				</div>
-
 				<div id="topbanner">
 					<img src="images/topbanner.jpg" alt="top banner" />
 				</div>
