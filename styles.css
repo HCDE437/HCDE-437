@@ -35,7 +35,7 @@ h1,h2, #mainnav li { font-family: 'Cabin', arial, serif; }
 #mainnav li {
 	float: left;
 	margin-left:1%;
-	margin-right:1%;
+	
 	font-family: sans-serif;
 	font-weight: heavy;
 	font-size: 14pt;
